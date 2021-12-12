@@ -66,6 +66,7 @@ int main(int argc, const char **argv)
     std::cin >> end_x;
     std::cout << "enter the y end point\n";
     std::cin >> end_x;
+    
 
     // Build Model.
     RouteModel model{osm_data};
