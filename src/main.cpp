@@ -58,6 +58,15 @@ int main(int argc, const char **argv)
 
     float start_x, start_y, end_x, end_y;
 
+    std::cout << "enter the x start point\n";
+    std::cin >> start_x;
+    std::cout << "enter the y start point\n";
+    std::cin >> start_y;
+    std::cout << "enter the x end point\n";
+    std::cin >> end_x;
+    std::cout << "enter the y end point\n";
+    std::cin >> end_x;
+
     // Build Model.
     RouteModel model{osm_data};
 
